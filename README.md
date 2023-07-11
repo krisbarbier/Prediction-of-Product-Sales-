@@ -14,7 +14,7 @@ Data Source: https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/v
 
 Data Dictionary:
 
-<img width="630" alt="Data Dictionary" src="https://github.com/krisbarbier/Prediction-of-Product-Sales-/assets/134635095/51c76bb6-638d-4255-a3e0-049adc032a9d">
+<img width="630" alt="Data Dictionary" src="https://github.com/krisbarbier/Prediction-of-Product-Sales-/assets/134635095/e578fcf3-20e6-420e-b26b-187f3356088d">
 
 
 ## Methods:
