@@ -34,19 +34,21 @@ From our analysis, we can see that certain items being sold and certain outlets 
 
 **Visual 1: Item Maximum Retail Price and Sales**
 
-![Unknown-2](https://github.com/krisbarbier/Prediction-of-Product-Sales/assets/134635095/f94f35a7-e571-4faf-9904-00e3bd90dd41)
+![Item MRP Viz](https://github.com/krisbarbier/Prediction-of-Product-Sales-/assets/134635095/dce84c0c-1fef-429b-9d0f-0b3de0669dcf)
 
 - In this visual, we can see that there is a positive correlation between an item's maximum retail price and the overall sales. This means that as the item's prices increase, so do overall sales. If outlets carry higher priced items, their overall sales will increase.
   
 **Visual 2: Item Type and Sales**
 
-![Unknown-3](https://github.com/krisbarbier/Prediction-of-Product-Sales/assets/134635095/514e9e45-321d-4550-a2ce-97dc3eb1ea3d)
+![Item Type Viz](https://github.com/krisbarbier/Prediction-of-Product-Sales-/assets/134635095/b6e39fed-c804-485a-ad8c-a96bb543def5)
+
 
 - Here, we can see that the type of item also impacts overall sales. Depending on what type the item is, it could generate more sales for the company. The types of items sold should be considered in order to improve sales.
   
 **Visual 3: Outlet Type and Sales**
 
-![Unknown-4](https://github.com/krisbarbier/Prediction-of-Product-Sales/assets/134635095/191c3ca7-2505-4cb7-906f-b3cb47138875)
+![Outlet Type Viz](https://github.com/krisbarbier/Prediction-of-Product-Sales-/assets/134635095/77b686c0-2459-4a10-9d6e-c3beb6ddefdc)
+
 
 - Finally, this visual shows that 'Supermarket Type 3' outlets generate the most sales overall. In order to keep increasing sales, the company should utilize this type of outlet more.
 
