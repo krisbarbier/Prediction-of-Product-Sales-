@@ -14,7 +14,8 @@ Data Source: https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/v
 
 Data Dictionary:
 
-<img width="630" alt="Screen Shot 2023-07-06 at 8 53 32 AM" src="https://github.com/krisbarbier/Prediction-of-Product-Sales/assets/134635095/db0670b2-55c2-4b0a-af23-168b8d94f598">
+<img width="630" alt="Data Dictionary" src="https://github.com/krisbarbier/Prediction-of-Product-Sales-/assets/134635095/51c76bb6-638d-4255-a3e0-049adc032a9d">
+
 
 ## Methods:
 
