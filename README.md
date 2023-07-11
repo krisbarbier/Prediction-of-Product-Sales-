@@ -14,7 +14,7 @@ Data Source: https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/v
 
 Data Dictionary:
 
-<img width="630" alt="Data Dictionary" src="https://github.com/krisbarbier/Prediction-of-Product-Sales-/assets/134635095/e578fcf3-20e6-420e-b26b-187f3356088d">
+![Data Dictionary](https://github.com/krisbarbier/Prediction-of-Product-Sales-/assets/134635095/d961aa38-a6de-4f16-aa57-957ae7727244)
 
 
 ## Methods:
@@ -59,15 +59,15 @@ The results of the machine learning models were as follows:
 
 **Linear Regression:**
 
-<img width="526" alt="Screen Shot 2023-07-06 at 9 37 03 AM" src="https://github.com/krisbarbier/Prediction-of-Product-Sales/assets/134635095/c9086160-74cf-41f4-bf3f-e99440a7b007">
+![Linear Regression](https://github.com/krisbarbier/Prediction-of-Product-Sales-/assets/134635095/6efd082c-d665-4db2-a845-33a23fef91c9)
 
 **Random Forest:**
 
-<img width="526" alt="Screen Shot 2023-07-06 at 9 37 17 AM" src="https://github.com/krisbarbier/Prediction-of-Product-Sales/assets/134635095/6718fa03-cf65-40d0-a936-d9cd49eb4a41">
+![Random Forest](https://github.com/krisbarbier/Prediction-of-Product-Sales-/assets/134635095/4c35c2ae-4860-411a-8442-094c83b445e2)
 
 **Tuned Random Forest:**
 
-<img width="526" alt="Screen Shot 2023-07-06 at 9 37 27 AM" src="https://github.com/krisbarbier/Prediction-of-Product-Sales/assets/134635095/166cc028-43cc-403e-99e4-9aadc9eecd4f">
+![Tuned Random Forest](https://github.com/krisbarbier/Prediction-of-Product-Sales-/assets/134635095/b1e64bed-5b39-47e6-85d1-9e34003ec096)
 
 - The best performing model was the Tuned Random Forest.
 - The R2 score of 0.590 shows that the model still did not fit the data very well, but it was better than the default random forest and the linear regression model.
