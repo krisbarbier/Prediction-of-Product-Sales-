@@ -74,6 +74,29 @@ The results of the machine learning models were as follows:
 - The tuned random forest has an MAE of 739.126, which means the error averaged about $739.
 - The RMSE of the tuned random forest was 1064.156, which means this error was about $1064. This metric also penalizes larger errors more than MAE.
 
+## Regression Model Insights:
+
+**Linear Regression Coefficients:**
+
+![Coefficients](https://github.com/krisbarbier/Prediction-of-Product-Sales-/blob/main/LinReg%20Coefficients.png)
+
+- **The top three positive coefficients pertain to: Outlet Identifier 27, Supermarket Type 3, and Outlet Size Medium.**
+  - If your store is identified by OUT027, your item sales will increase by 675.696 dollars.
+  - If your store is a type 3 supermarket, your item sales will increase by 675.696 dollars.
+  - If your store is medium sized, your item sales will increase by 390.934 dollars.
+
+- **The top 3 negative coefficients pertain to item visibility, outlet identifier 10, and outlet type grocery store.**
+  - If your store increases item visibility by 1, sales will decrease by 423.390 dollars.
+  - If your store is identified by OUT010, your sales will decrease by 470.982 dollars.
+  - If your store is a grocery store type, your sales will decrease by 856.518 dollars.
+
+**Random Forest Feature Importances:**
+
+![Importances](https://github.com/krisbarbier/Prediction-of-Product-Sales-/blob/main/Feature%20Importances.png)
+
+- **The top 5 important features are: Item_MRP, Outlet_Type_Grocery Store, Item_Visibility, Item_Weight, and Outlet_Type_Supermarket Type3.**
+  - This means that the random forest model used these 5 features the most when making predictions.
+
 ## Recommendations:
 
 Based on the analysis of this data, I would recommend the following:
