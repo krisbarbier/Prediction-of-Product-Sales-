@@ -97,6 +97,21 @@ The results of the machine learning models were as follows:
 - **The top 5 important features are: Item_MRP, Outlet_Type_Grocery Store, Item_Visibility, Item_Weight, and Outlet_Type_Supermarket Type3.**
   - This means that the random forest model used these 5 features the most when making predictions.
 
+### SHAP Plot Interpretations:
+
+**SHAP Bar Plot**
+![Bar SHAP](
+
+- In both the SHAP plot and the original feature importancs, we see some commonalities. In both plots, Item_MRP is the top feature used, followed by Outlet_Type_Grocery Store. The SHAP plot has Item_Visibility and Item_Weight as the next features, whereas in the original feature importances plot, these two are a little further down. The other two features that round out the top 6 are Outlet_Type_Supermarket 3, and Outlet_Identifier_OUT027. Both plots show that these are the top 6 features used.
+
+**SHAP Dot Plot**
+![SHAP Dot](
+
+- The top three features are: Item_MRP, Outlet_Type_Grocery Store, and Outlet_Type_Supermarket 3.
+  - Item_MRP: The SHAP plot shows a higher concentration of red values toward the right side of the plot. This means that higher values in this feature will increase and item's sales.
+  - Outlet_Type_Grocery Store: For this feature, the red values are most concentrated to the left of 0. This means that if an outlet is identified as a grocery store, then an item will sell for less.
+  - Outlet_Type_Supermarket 3: This feature has higher concentrations of red values greater than 0. This means that outlets that are this type will result in greater sales.
+
 ## Recommendations:
 
 Based on the analysis of this data, I would recommend the following:
