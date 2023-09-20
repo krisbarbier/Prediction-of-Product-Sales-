@@ -100,12 +100,14 @@ The results of the machine learning models were as follows:
 ### SHAP Plot Interpretations:
 
 **SHAP Bar Plot**
-![Bar SHAP](
+
+![Bar SHAP](https://github.com/krisbarbier/Prediction-of-Product-Sales-/blob/main/images/summary_plot_1.png)
 
 - In both the SHAP plot and the original feature importancs, we see some commonalities. In both plots, Item_MRP is the top feature used, followed by Outlet_Type_Grocery Store. The SHAP plot has Item_Visibility and Item_Weight as the next features, whereas in the original feature importances plot, these two are a little further down. The other two features that round out the top 6 are Outlet_Type_Supermarket 3, and Outlet_Identifier_OUT027. Both plots show that these are the top 6 features used.
 
 **SHAP Dot Plot**
-![SHAP Dot](
+
+![SHAP Dot](https://github.com/krisbarbier/Prediction-of-Product-Sales-/blob/main/images/summary_plot_2.png)
 
 - The top three features are: Item_MRP, Outlet_Type_Grocery Store, and Outlet_Type_Supermarket 3.
   - Item_MRP: The SHAP plot shows a higher concentration of red values toward the right side of the plot. This means that higher values in this feature will increase and item's sales.
