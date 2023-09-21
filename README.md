@@ -78,7 +78,7 @@ The results of the machine learning models were as follows:
 
 **Linear Regression Coefficients:**
 
-![Coefficients](https://github.com/krisbarbier/Prediction-of-Product-Sales-/blob/main/LinReg%20Coefficients.png)
+![Coefficients](https://github.com/krisbarbier/Prediction-of-Product-Sales-/blob/main/images/LinReg%20Coefficients.png)
 
 - **The top three positive coefficients pertain to: Outlet Identifier 27, Supermarket Type 3, and Outlet Size Medium.**
   - If an item is sold at a store identified by OUT027, your sales will increase by $675.696.
@@ -91,7 +91,7 @@ The results of the machine learning models were as follows:
 
 **Random Forest Feature Importances:**
 
-![Importances](https://github.com/krisbarbier/Prediction-of-Product-Sales-/blob/main/Feature%20Importances.png)
+![Importances](https://github.com/krisbarbier/Prediction-of-Product-Sales-/blob/main/images/Feature%20Importances.png)
 
 - **The top 5 important features are: Item_MRP, Outlet_Type_Grocery Store, Item_Visibility, Item_Weight, and Outlet_Type_Supermarket Type3.**
   - This means that the random forest model used these 5 features the most when making predictions.
