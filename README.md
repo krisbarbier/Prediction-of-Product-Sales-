@@ -81,14 +81,13 @@ The results of the machine learning models were as follows:
 ![Coefficients](https://github.com/krisbarbier/Prediction-of-Product-Sales-/blob/main/LinReg%20Coefficients.png)
 
 - **The top three positive coefficients pertain to: Outlet Identifier 27, Supermarket Type 3, and Outlet Size Medium.**
-  - If your store is identified by OUT027, your item sales will increase by 675.696 dollars.
-  - If your store is a type 3 supermarket, your item sales will increase by 675.696 dollars.
-  - If your store is medium sized, your item sales will increase by 390.934 dollars.
-
+  - If an item is sold at a store identified by OUT027, your sales will increase by $675.696.
+  - If an item is sold at a type 3 supermarket, your sales will increase by $675.696.
+  - If an item is sold at a medium sized outlet, your sales will increase by $390.934.
 - **The top 3 negative coefficients pertain to item visibility, outlet identifier 10, and outlet type grocery store.**
-  - If your store increases item visibility by 1, sales will decrease by 423.390 dollars.
-  - If your store is identified by OUT010, your sales will decrease by 470.982 dollars.
-  - If your store is a grocery store type, your sales will decrease by 856.518 dollars.
+  - If item visibility increases by 1 unit for that item, sales will decrease by $423.390.
+  - If an item is sold at a store identified by OUT010, your sales will decrease by $470.982.
+  - If an item is sold at a grocery store type outlet, your sales will decrease by $856.518.
 
 **Random Forest Feature Importances:**
 
