@@ -97,7 +97,7 @@ The results of the machine learning models were as follows:
 - **The top 5 important features are: Item_MRP, Outlet_Type_Grocery Store, Item_Visibility, Item_Weight, and Outlet_Type_Supermarket Type3.**
   - This means that the random forest model used these 5 features the most when making predictions.
 
-### SHAP Plot Interpretations:
+### Global SHAP Plot Interpretations:
 
 **SHAP Bar Plot**
 
@@ -113,6 +113,40 @@ The results of the machine learning models were as follows:
   - Item_MRP: The SHAP plot shows a higher concentration of red values toward the right side of the plot. This means that higher values in this feature will increase and item's sales.
   - Outlet_Type_Grocery Store: For this feature, the red values are most concentrated to the left of 0. This means that if an outlet is identified as a grocery store, then an item will sell for less.
   - Outlet_Type_Supermarket 3: This feature has higher concentrations of red values greater than 0. This means that outlets that are this type will result in greater sales.
+
+### Local Explanations:
+
+#### Item 1: The first local explanation is for an item with high mrp sold at a gorcery store.
+
+**SHAP Plot**
+
+![SHAP 1](https://github.com/krisbarbier/Prediction-of-Product-Sales-/blob/main/images/SHAP%201.png)
+
+- SHAP Force Plot:
+  - For this first item, the most influential feature toward a low sale prediction is that this item is sold in a grocery store. The high item price point tries to push for a higher price, but is not able to due to the store being a grocery store and not a supermarket.
+
+**LIME Plot**
+
+![LIME 1](https://github.com/krisbarbier/Prediction-of-Product-Sales-/blob/main/images/LIME%201.png)
+
+- LIME Plot:
+  - In this plot, we also see a low predicted value for this item. The three features that could lead to a higher sale is the high mrp, that it is not sold in a supermarket type 2, and that it is a household item. The store type being grocery store is still the most influential factor for the low prediction value of this item.
+ 
+#### Item 2: The second local explanation is for an item with high mrp sold at a supermarket type 3.
+
+**SHAP Plot**
+
+![SHAP 2](https://github.com/krisbarbier/Prediction-of-Product-Sales-/blob/main/images/SHAP%202.png)
+
+- SHAP Force Plot:
+  - For item 2, we can see that the outlet type pushes the prediction to the right, while the item's sale price is actually not as high as it could be, and pushes back toward a lower prediction. In the future, this could be resolved by choosing a higher filter point for Item_MRP. For this item, the type of outlet plays the biggest role in getting a higher prediction sale value.
+
+**LIME Plot**
+
+![LIME 2](https://github.com/krisbarbier/Prediction-of-Product-Sales-/blob/main/images/LIME%202.png)
+
+- LIME Plot:
+  - In the LIME plot for this item, we see the same type of result. The type of outlet plays a much larger role in determining the sale value of this item. The item's price and type of item that it is push toward lower prediction values, while the outlet type(s) push toward higher values.
 
 ## Recommendations:
 
